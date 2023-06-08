@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(169, 196, 250);
+    padding: 20px;
+    margin: 200px;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+  }
+
+.buttonLogin{
+    margin: 20px;
+    background-color: black;
+    color: beige;
+    padding: 20px;
+    border-radius: 4px;
+  }

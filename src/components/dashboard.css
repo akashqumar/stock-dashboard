@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    margin-top: 81px;
+  }
+  
+  .left {
+    flex: 1;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+  }
+  
+  .right {
+    
+    padding-top: 250px;
+    flex: 1;
+    background-color: lightgreen;
+    display: flex;
+  justify-content: center;
+  
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(114, 109, 191, 0.599);
+    padding: 1px;
+  }
+  
+  .logoutButton{
+    margin: 20px;
+    background-color: black;
+    color: beige;
+    padding: 10px;
+    border-radius: 4px;
+  }
